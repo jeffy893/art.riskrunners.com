@@ -1,0 +1,1204 @@
+{
+  "generated": "2026-07-26T12:00:00.000000",
+  "summary_statistics": {
+    "total_policies": 12,
+    "total_premium_income": 894520.00,
+    "total_claims_3_years": 16,
+    "total_incurred_3_years": 587340.00,
+    "loss_ratio_3_years": 0.6566,
+    "segment_distribution": {
+      "Gallery": 3,
+      "Private Collector": 3,
+      "Art Shipper": 3,
+      "Conservation Studio": 3
+    }
+  },
+  "policies": [
+    {
+      "policy_number": "RR-ART-2026-001",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Meridian Fine Art Gallery",
+        "segment": "Gallery",
+        "address": {
+          "street": "2100 N Scottsdale Rd",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85257"
+        },
+        "contact": {
+          "name": "Sarah Whitfield",
+          "phone": "(480) 555-2100"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Gallery Operations & Exhibition",
+        "market_segment": "Gallery"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Transit damage during art shipping (vibration, impact, water ingress)",
+          "Climate control failures causing humidity or temperature damage",
+          "Accidental damage during installation or de-installation",
+          "Theft or burglary from secured gallery premises",
+          "Fire, flood, and natural disaster damage",
+          "Vandalism during public exhibition hours",
+          "Third-party handler negligence causing physical loss",
+          "Structural failure of framing or display systems"
+        ]
+      },
+      "premium": {
+        "base_premium": 75000,
+        "experience_modification": 2340.00,
+        "total_premium": 77340.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Meridian Fine Art Gallery operates a contemporary art gallery with 15 years in business, managing a rotating inventory valued at $4.2M across 2 exhibition spaces.",
+        "operations_description": "Gallery specializing in contemporary paintings and sculpture with annual revenue of $2.8M. Hosts 12 exhibitions per year with average 40 works per show. Manages domestic and international art loans.",
+        "risk_factors": [
+          "High-value inventory averaging $4.2M on premises",
+          "12 annual exhibition changeovers (installation/de-installation risk)",
+          "International loan program with cross-border transit",
+          "Public foot traffic during gallery hours (vandalism exposure)"
+        ],
+        "loss_control_measures": [
+          "24/7 monitored security system with motion detection",
+          "Climate-controlled environment (68F, 45% RH) with backup HVAC",
+          "Professional art handlers for all installation work",
+          "Condition reporting protocol for incoming/outgoing works"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 2,
+          "total_incurred": 67500.00,
+          "claims_detail": [
+            {
+              "date": "2024-03-15",
+              "type": "Transit Damage",
+              "amount": 42000.00,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-11-08",
+              "type": "Installation Accident",
+              "amount": 25500.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 11601.00
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-002",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Copper State Art Logistics",
+        "segment": "Art Shipper",
+        "address": {
+          "street": "5400 W Buckeye Rd",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85043"
+        },
+        "contact": {
+          "name": "Marcus Reeves",
+          "phone": "(602) 555-5400"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Art Transportation & Logistics",
+        "market_segment": "Art Shipper"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 15000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Transit damage during art shipping (vibration, impact, water ingress)",
+          "Vehicle accident causing cargo loss or damage",
+          "Climate control failure in transit vehicles",
+          "Loading/unloading accidents at pickup and delivery",
+          "Theft during transit or at temporary holding facilities",
+          "Customs delay causing environmental degradation",
+          "Crate or packaging failure during movement",
+          "Third-party warehouse incidents during layover"
+        ]
+      },
+      "premium": {
+        "base_premium": 85000,
+        "experience_modification": 4250.00,
+        "total_premium": 89250.00,
+        "payment_terms": "Annual",
+        "installments": 2
+      },
+      "risk_narrative": {
+        "summary": "Copper State Art Logistics provides climate-controlled fine art transportation across the Southwest US, handling approximately 800 shipments per year with a total transit value exceeding $120M annually.",
+        "operations_description": "Specialized art logistics firm with 8 climate-controlled vehicles, bonded warehouse facility, and trained art handlers. Services galleries, museums, auction houses, and private collectors across AZ, NV, CA, NM, and CO.",
+        "risk_factors": [
+          "800+ shipments annually with average value of $150K per load",
+          "Long-distance routes through extreme desert temperatures",
+          "Multiple handling touchpoints per shipment (pickup, warehouse, delivery)",
+          "High aggregate transit value exposure ($120M+ annually)"
+        ],
+        "loss_control_measures": [
+          "GPS-tracked climate-controlled vehicles with real-time monitoring",
+          "Certified art handlers with annual training certification",
+          "Custom crating and packaging for each artwork",
+          "Dual-driver protocol for shipments exceeding $500K value"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 3,
+          "total_incurred": 94200.00,
+          "claims_detail": [
+            {
+              "date": "2024-06-22",
+              "type": "Transit Vibration Damage",
+              "amount": 38500.00,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-09-03",
+              "type": "Climate Control Failure",
+              "amount": 31200.00,
+              "status": "Closed"
+            },
+            {
+              "date": "2025-02-14",
+              "type": "Loading Accident",
+              "amount": 24500.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 13387.50
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-003",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Thornton Private Collection",
+        "segment": "Private Collector",
+        "address": {
+          "street": "8900 E Pinnacle Peak Rd",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85255"
+        },
+        "contact": {
+          "name": "David Thornton",
+          "phone": "(480) 555-8900"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Private Collection Management",
+        "market_segment": "Private Collector"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Theft or burglary from private residence or storage",
+          "Fire, flood, and natural disaster damage to collection",
+          "Climate control failures in private storage facilities",
+          "Accidental damage during collection rotation or display",
+          "Transit damage when lending works to exhibitions",
+          "Water damage from plumbing failures or roof leaks",
+          "Vandalism or malicious damage by third parties",
+          "Structural collapse affecting stored artworks"
+        ]
+      },
+      "premium": {
+        "base_premium": 65000,
+        "experience_modification": -3250.00,
+        "total_premium": 61750.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "The Thornton Private Collection comprises 180 works of contemporary and modern art valued at $8.5M, stored across a private residence and a dedicated climate-controlled storage facility.",
+        "operations_description": "High-net-worth private collector managing a diversified collection of paintings, sculpture, and works on paper. Actively lends to museum exhibitions 3-4 times per year. Collection has professional management oversight.",
+        "risk_factors": [
+          "Total collection value: $8.5M across 180 works",
+          "Split storage between residential and commercial facility",
+          "Active lending program (3-4 loans per year with transit risk)",
+          "Mixed media types with varying conservation requirements"
+        ],
+        "loss_control_measures": [
+          "Dedicated climate-controlled storage with 24/7 monitoring",
+          "Annual professional appraisals and condition reports",
+          "Museum-grade security system at both locations",
+          "Professional conservator on retainer for preventive care"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 0,
+          "total_incurred": 0,
+          "claims_detail": []
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 9262.50
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-004",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Sonoran Conservation Studio",
+        "segment": "Conservation Studio",
+        "address": {
+          "street": "1450 E McDowell Rd",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85006"
+        },
+        "contact": {
+          "name": "Dr. Elena Vasquez",
+          "phone": "(602) 555-1450"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Art Conservation & Restoration",
+        "market_segment": "Conservation Studio"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Unforeseen chemical reactions during conservation treatments",
+          "Accidental damage during cleaning or restoration procedures",
+          "Structural failure during relining or support treatment",
+          "Solvent migration causing unintended paint layer damage",
+          "Environmental incident in studio (fire, flood, HVAC failure)",
+          "Theft of artworks while in conservator's custody",
+          "Equipment malfunction causing damage to artwork",
+          "Third-party subcontractor errors during specialized treatments"
+        ]
+      },
+      "premium": {
+        "base_premium": 70000,
+        "experience_modification": 1400.00,
+        "total_premium": 71400.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Sonoran Conservation Studio provides museum-grade conservation and restoration services, handling approximately 120 works annually with an average value of $85K per piece in custody.",
+        "operations_description": "Full-service conservation studio specializing in paintings, works on paper, and mixed media. Services include cleaning, structural stabilization, inpainting, relining, and preventive conservation. Serves museums, galleries, and private collectors across the region.",
+        "risk_factors": [
+          "120 works in custody annually with average value $85K each",
+          "Chemical treatments with potential for adverse reactions",
+          "Irreversible procedures (relining, structural repair) on high-value works",
+          "Multiple works in studio simultaneously (aggregate exposure)"
+        ],
+        "loss_control_measures": [
+          "Treatment protocols reviewed by senior conservator before execution",
+          "Spot-testing on inconspicuous areas before full treatment",
+          "Fire suppression system (inert gas) protecting studio spaces",
+          "Comprehensive photographic documentation before/during/after treatment"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 1,
+          "total_incurred": 52000.00,
+          "claims_detail": [
+            {
+              "date": "2025-01-20",
+              "type": "Chemical Reaction During Cleaning",
+              "amount": 52000.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 10710.00
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-005",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Desert Modern Gallery",
+        "segment": "Gallery",
+        "address": {
+          "street": "7014 E Main St",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85251"
+        },
+        "contact": {
+          "name": "James Navarro",
+          "phone": "(480) 555-7014"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Gallery Operations & Exhibition",
+        "market_segment": "Gallery"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Transit damage during art shipping (vibration, impact, water ingress)",
+          "Climate control failures causing humidity or temperature damage",
+          "Accidental damage during installation or de-installation",
+          "Theft or burglary from secured gallery premises",
+          "Fire, flood, and natural disaster damage",
+          "Vandalism during public exhibition hours",
+          "Third-party handler negligence causing physical loss",
+          "Structural failure of framing or display systems"
+        ]
+      },
+      "premium": {
+        "base_premium": 75000,
+        "experience_modification": -2100.00,
+        "total_premium": 72900.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Desert Modern Gallery specializes in mid-century and contemporary sculpture with 10 years in business, managing inventory valued at $3.1M with an outdoor sculpture garden.",
+        "operations_description": "Gallery with indoor exhibition space and 2-acre outdoor sculpture garden. Annual revenue of $2.1M. Specializes in large-scale metal and stone sculpture. Hosts 8 exhibitions and 4 outdoor events annually.",
+        "risk_factors": [
+          "Outdoor sculpture garden exposed to desert weather extremes",
+          "Large-scale works requiring crane installation (rigging risk)",
+          "Public events with high foot traffic near displayed works",
+          "Heavy sculpture requiring specialized handling equipment"
+        ],
+        "loss_control_measures": [
+          "Engineered mounting systems rated for wind and seismic loads",
+          "Certified rigging crew for all installations over 500 lbs",
+          "Perimeter security and CCTV coverage of sculpture garden",
+          "Weather monitoring system with automated alerts"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 1,
+          "total_incurred": 28400.00,
+          "claims_detail": [
+            {
+              "date": "2025-07-18",
+              "type": "Wind Damage to Outdoor Sculpture",
+              "amount": 28400.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 10935.00
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-006",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Artisan Vault Storage",
+        "segment": "Art Shipper",
+        "address": {
+          "street": "3200 S 48th St",
+          "city": "Tempe",
+          "state": "AZ",
+          "zip": "85282"
+        },
+        "contact": {
+          "name": "Lisa Chow",
+          "phone": "(480) 555-3200"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Art Storage & Warehousing",
+        "market_segment": "Art Shipper"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 15000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Climate control system failure (HVAC, humidity systems)",
+          "Fire or sprinkler system malfunction causing water damage",
+          "Theft or unauthorized access to storage facility",
+          "Structural failure (roof leak, wall breach, foundation issue)",
+          "Pest infestation causing damage to stored works",
+          "Power outage leading to environmental degradation",
+          "Accidental damage during inventory rotation or access",
+          "Natural disaster damage (flood, earthquake, dust storm)"
+        ]
+      },
+      "premium": {
+        "base_premium": 80000,
+        "experience_modification": 1600.00,
+        "total_premium": 81600.00,
+        "payment_terms": "Annual",
+        "installments": 2
+      },
+      "risk_narrative": {
+        "summary": "Artisan Vault Storage operates a purpose-built fine art storage facility with 15,000 sq ft of climate-controlled space, holding approximately $45M in aggregate client artworks at any given time.",
+        "operations_description": "Bonded fine art warehouse with museum-grade environmental controls, viewing rooms, and receiving dock. Serves 60+ clients including galleries, auction houses, estates, and private collectors. Handles long-term storage, temporary holds, and art fair logistics.",
+        "risk_factors": [
+          "Aggregate value of stored works: $45M at any given time",
+          "Concentration risk—single facility houses multiple clients' works",
+          "24/7 climate control dependency (desert heat extremes)",
+          "Regular ingress/egress of works creates handling exposure"
+        ],
+        "loss_control_measures": [
+          "Redundant HVAC systems with automatic failover",
+          "Inert gas fire suppression (no water near artworks)",
+          "Biometric access control and 24/7 security monitoring",
+          "Annual third-party facility inspection and certification"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 1,
+          "total_incurred": 44800.00,
+          "claims_detail": [
+            {
+              "date": "2024-08-05",
+              "type": "HVAC Failure During Heat Wave",
+              "amount": 44800.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 12240.00
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-007",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Kaplan Collection Trust",
+        "segment": "Private Collector",
+        "address": {
+          "street": "6200 E Camelback Rd",
+          "city": "Paradise Valley",
+          "state": "AZ",
+          "zip": "85253"
+        },
+        "contact": {
+          "name": "Rebecca Kaplan",
+          "phone": "(480) 555-6200"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Private Collection Management",
+        "market_segment": "Private Collector"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Theft or burglary from private residence or storage",
+          "Fire, flood, and natural disaster damage to collection",
+          "Climate control failures in private storage facilities",
+          "Accidental damage during collection rotation or display",
+          "Transit damage when lending works to exhibitions",
+          "Water damage from plumbing failures or roof leaks",
+          "Vandalism or malicious damage by third parties",
+          "Structural collapse affecting stored artworks"
+        ]
+      },
+      "premium": {
+        "base_premium": 65000,
+        "experience_modification": 5200.00,
+        "total_premium": 70200.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "The Kaplan Collection Trust manages 240 works of American Western and Southwestern art valued at $12M, displayed across a private residence and dedicated gallery wing.",
+        "operations_description": "Family collection trust actively acquiring and displaying American Western art. Lends frequently to regional museums (5-6 loans per year). Hosts private viewings and educational events in the gallery wing.",
+        "risk_factors": [
+          "Total collection value: $12M across 240 works",
+          "Frequent lending activity with transit exposure (5-6 per year)",
+          "Private events with external guests near displayed works",
+          "Residential location with domestic hazards (plumbing, cooking)"
+        ],
+        "loss_control_measures": [
+          "Dedicated gallery wing with museum-grade security",
+          "Annual conservation assessments on high-value works",
+          "Professional packing and courier service for all loans",
+          "Comprehensive estate disaster planning and evacuation protocol"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 2,
+          "total_incurred": 73500.00,
+          "claims_detail": [
+            {
+              "date": "2024-04-12",
+              "type": "Water Damage - Pipe Burst",
+              "amount": 58000.00,
+              "status": "Closed"
+            },
+            {
+              "date": "2025-06-30",
+              "type": "Transit Damage - Loan Return",
+              "amount": 15500.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 10530.00
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-008",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Heritage Restoration Group",
+        "segment": "Conservation Studio",
+        "address": {
+          "street": "920 N 2nd St",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85004"
+        },
+        "contact": {
+          "name": "Thomas Albrecht",
+          "phone": "(602) 555-0920"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Art Conservation & Restoration",
+        "market_segment": "Conservation Studio"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Unforeseen chemical reactions during conservation treatments",
+          "Accidental damage during cleaning or restoration procedures",
+          "Structural failure during relining or support treatment",
+          "Solvent migration causing unintended paint layer damage",
+          "Environmental incident in studio (fire, flood, HVAC failure)",
+          "Theft of artworks while in conservator's custody",
+          "Equipment malfunction causing damage to artwork",
+          "Third-party subcontractor errors during specialized treatments"
+        ]
+      },
+      "premium": {
+        "base_premium": 70000,
+        "experience_modification": -4900.00,
+        "total_premium": 65100.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Heritage Restoration Group specializes in large-scale mural and architectural art conservation with 20 years of experience, handling projects valued from $50K to $2M per engagement.",
+        "operations_description": "Conservation studio focused on architectural murals, frescoes, and large-format works. Operates both in-studio and on-site at historic buildings. Services include stabilization, cleaning, inpainting, and environmental remediation.",
+        "risk_factors": [
+          "On-site work in occupied historic buildings adds complexity",
+          "Large-scale works cannot be moved—treatment occurs in situ",
+          "Scaffold and lift equipment near fragile surfaces",
+          "Chemical treatments in poorly ventilated historic spaces"
+        ],
+        "loss_control_measures": [
+          "Site-specific risk assessment before every on-location project",
+          "Containment protocols for all chemical treatments",
+          "Senior conservator supervision on all projects over $200K",
+          "Comprehensive liability waivers and documentation with building owners"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 0,
+          "total_incurred": 0,
+          "claims_detail": []
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 9765.00
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-009",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Southwest Art Express",
+        "segment": "Art Shipper",
+        "address": {
+          "street": "1800 W Grant Rd",
+          "city": "Tucson",
+          "state": "AZ",
+          "zip": "85745"
+        },
+        "contact": {
+          "name": "Patricia Morales",
+          "phone": "(520) 555-1800"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Art Transportation & Logistics",
+        "market_segment": "Art Shipper"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 15000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Transit damage during art shipping (vibration, impact, water ingress)",
+          "Vehicle accident causing cargo loss or damage",
+          "Climate control failure in transit vehicles",
+          "Loading/unloading accidents at pickup and delivery",
+          "Theft during transit or at temporary holding facilities",
+          "Customs delay causing environmental degradation",
+          "Crate or packaging failure during movement",
+          "Third-party warehouse incidents during layover"
+        ]
+      },
+      "premium": {
+        "base_premium": 85000,
+        "experience_modification": -1700.00,
+        "total_premium": 83300.00,
+        "payment_terms": "Annual",
+        "installments": 2
+      },
+      "risk_narrative": {
+        "summary": "Southwest Art Express specializes in regional fine art transport between Tucson, Phoenix, Santa Fe, and Albuquerque art markets, completing 500 shipments per year with total transit value of $75M annually.",
+        "operations_description": "Regional art transport firm serving the Southwest corridor. Fleet of 5 climate-controlled trucks with GPS tracking. Specializes in fair logistics (Scottsdale Art Fair, Santa Fe Indian Market) and museum loans between regional institutions.",
+        "risk_factors": [
+          "500 annual shipments averaging $150K per load",
+          "Art fair logistics with tight timelines and multiple stops",
+          "Mountain pass routes with weather variability (I-17, I-40)",
+          "Seasonal demand spikes creating schedule pressure"
+        ],
+        "loss_control_measures": [
+          "Real-time temperature and vibration monitoring in all vehicles",
+          "Route planning software avoiding construction and weather hazards",
+          "White-glove handling certification for all crew members",
+          "Emergency response protocol with 24/7 dispatch"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 1,
+          "total_incurred": 19800.00,
+          "claims_detail": [
+            {
+              "date": "2025-03-22",
+              "type": "Vibration Damage - Mountain Route",
+              "amount": 19800.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 12495.00
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-010",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Camelback Contemporary",
+        "segment": "Gallery",
+        "address": {
+          "street": "4402 N Scottsdale Rd",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85251"
+        },
+        "contact": {
+          "name": "Nina Park",
+          "phone": "(480) 555-4402"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Gallery Operations & Exhibition",
+        "market_segment": "Gallery"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Transit damage during art shipping (vibration, impact, water ingress)",
+          "Climate control failures causing humidity or temperature damage",
+          "Accidental damage during installation or de-installation",
+          "Theft or burglary from secured gallery premises",
+          "Fire, flood, and natural disaster damage",
+          "Vandalism during public exhibition hours",
+          "Third-party handler negligence causing physical loss",
+          "Cybersecurity breach exposing client and inventory data"
+        ]
+      },
+      "premium": {
+        "base_premium": 75000,
+        "experience_modification": 3750.00,
+        "total_premium": 78750.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Camelback Contemporary is a blue-chip gallery representing 25 artists with inventory valued at $6.8M, participating in 5 international art fairs annually.",
+        "operations_description": "Premier gallery with 5,000 sq ft exhibition space and dedicated storage. Represents emerging and mid-career contemporary artists. Revenue of $4.2M annually. Active art fair participation (Art Basel Miami, Frieze LA, TEFAF, etc.).",
+        "risk_factors": [
+          "International art fair participation (5 per year) with extensive shipping",
+          "High-value inventory ($6.8M) across gallery and off-site storage",
+          "Consignment works from artists (bailee liability)",
+          "Online sales platform with cyber exposure"
+        ],
+        "loss_control_measures": [
+          "Dedicated art fair logistics coordinator and protocol",
+          "Comprehensive condition reporting for all consigned works",
+          "Cybersecurity audit and encrypted client database",
+          "Professional installation team with fine art insurance certification"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 2,
+          "total_incurred": 81200.00,
+          "claims_detail": [
+            {
+              "date": "2024-12-04",
+              "type": "Art Fair Transit Damage",
+              "amount": 55200.00,
+              "status": "Closed"
+            },
+            {
+              "date": "2025-04-18",
+              "type": "Gallery Theft - After Hours",
+              "amount": 26000.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 11812.50
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-011",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Montoya Estate Collection",
+        "segment": "Private Collector",
+        "address": {
+          "street": "10200 E Cactus Rd",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85260"
+        },
+        "contact": {
+          "name": "Carlos Montoya III",
+          "phone": "(480) 555-1020"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Private Collection Management",
+        "market_segment": "Private Collector"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Theft or burglary from private residence or storage",
+          "Fire, flood, and natural disaster damage to collection",
+          "Climate control failures in private storage facilities",
+          "Accidental damage during collection rotation or display",
+          "Transit damage when lending works to exhibitions",
+          "Water damage from plumbing failures or roof leaks",
+          "Vandalism or malicious damage by third parties",
+          "Structural collapse affecting stored artworks"
+        ]
+      },
+      "premium": {
+        "base_premium": 65000,
+        "experience_modification": 1950.00,
+        "total_premium": 66950.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "The Montoya Estate Collection spans three generations of Latin American art collecting, comprising 320 works valued at $15M including significant pre-Columbian artifacts and contemporary paintings.",
+        "operations_description": "Multi-generational family collection with dedicated private museum wing open by appointment. Active acquisition program. Lends to 2-3 exhibitions annually. Maintains on-staff curator and registrar.",
+        "risk_factors": [
+          "Total collection value: $15M across 320 works",
+          "Pre-Columbian artifacts with unique conservation requirements",
+          "Some works displayed in residential areas with domestic risk",
+          "Active acquisition means frequent transit of new works"
+        ],
+        "loss_control_measures": [
+          "Full-time registrar managing condition reports and location tracking",
+          "Separate climate zones for different media types",
+          "Armed security and panic room protocol for high-value wing",
+          "Biannual conservation review of fragile pre-Columbian pieces"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 1,
+          "total_incurred": 34500.00,
+          "claims_detail": [
+            {
+              "date": "2024-07-09",
+              "type": "Accidental Damage - Staff Handling",
+              "amount": 34500.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 10042.50
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-ART-2026-012",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Prisma Conservation Lab",
+        "segment": "Conservation Studio",
+        "address": {
+          "street": "2750 E Broadway Blvd",
+          "city": "Tucson",
+          "state": "AZ",
+          "zip": "85716"
+        },
+        "contact": {
+          "name": "Dr. Kenji Yamamoto",
+          "phone": "(520) 555-2750"
+        }
+      },
+      "risk_class": {
+        "primary": "Fine Art Business Liability",
+        "sub_class": "Art Conservation & Restoration",
+        "market_segment": "Conservation Studio"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 500000,
+          "aggregate": 2000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 10000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Unforeseen chemical reactions during conservation treatments",
+          "Accidental damage during cleaning or restoration procedures",
+          "Structural failure during relining or support treatment",
+          "Solvent migration causing unintended paint layer damage",
+          "Environmental incident in studio (fire, flood, HVAC failure)",
+          "Theft of artworks while in conservator's custody",
+          "Equipment malfunction causing damage to artwork",
+          "Imaging equipment failure damaging delicate surfaces"
+        ]
+      },
+      "premium": {
+        "base_premium": 70000,
+        "experience_modification": 5980.00,
+        "total_premium": 75980.00,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Prisma Conservation Lab specializes in photographic and works-on-paper conservation using advanced imaging (multispectral, X-ray fluorescence), handling 200 works annually with average custody value of $60K per piece.",
+        "operations_description": "High-tech conservation laboratory combining traditional techniques with cutting-edge imaging and analysis. Specializes in photographs, prints, watercolors, and ephemera. Advanced capabilities include laser cleaning, enzyme treatments, and digital documentation.",
+        "risk_factors": [
+          "200 works in custody annually with varied fragility levels",
+          "Laser cleaning equipment with potential for surface damage",
+          "Enzyme treatments with precise timing requirements",
+          "Works on paper extremely sensitive to humidity fluctuations"
+        ],
+        "loss_control_measures": [
+          "Laser safety protocols with power calibration checks before each use",
+          "Humidity-controlled treatment rooms (50% RH +/- 2%)",
+          "Timed enzyme application protocols with senior oversight",
+          "Full spectral documentation before any intervention"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 2,
+          "total_incurred": 91440.00,
+          "claims_detail": [
+            {
+              "date": "2024-05-28",
+              "type": "Laser Over-Exposure on Print",
+              "amount": 62000.00,
+              "status": "Closed"
+            },
+            {
+              "date": "2025-01-15",
+              "type": "Humidity Spike - Paper Cockling",
+              "amount": 29440.00,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 500000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 11397.00
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Art Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    }
+  ]
+}
